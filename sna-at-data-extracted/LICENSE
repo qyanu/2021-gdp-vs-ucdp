@@ -1,0 +1,21 @@
+The data in this directory is a subset of data downloaded from
+Statistik Austria via https://statistik.at/, and a concatenation
+of said subset. For the original data files as downloaded, see
+directory ``sna-at-data/``.
+
+The original copyright statement of Statistik Austria reads as follows:
+
+Copyright Statistik Austria
+
+Das Produkt und die darin enthaltenen Daten sind urheberrechtlich geschützt.
+Alle Rechte sind der Bundesanstalt Statistik Österreich (STATISTIK AUSTRIA)
+vorbehalten. Bei richtiger Wiedergabe und mit korrekter Quellenangabe
+"STATISTIK AUSTRIA" ist es gestattet, die Inhalte zu vervielfältigen,
+verbreiten, öffentlich zugänglich zu machen und sie zu bearbeiten. Bei
+auszugsweiser Verwendung, Darstellung von Teilen oder sonstiger Veränderung
+von Dateninhalten wie Tabellen, Grafiken oder Texten ist an geeigneter Stelle
+ein Hinweis anzubringen, dass die verwendeten Inhalte bearbeitet wurden.
+© STATISTIK AUSTRIA
+
+Gesonderte Lizenzen und Nutzungsbedingungen gelten für Open Data von
+Statistik Austria (http://data.statistik.gv.at/web/?page=terms).
