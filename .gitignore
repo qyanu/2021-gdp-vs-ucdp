@@ -1,0 +1,6 @@
+# the following directories are excluded from git repository, as they contain
+# copyrighted material not fit for restriction-less internet publishing.
+/ucdp-data/
+/ucdp-data-extracted/
+/output-data/
+README.pdf

@@ -1,0 +1,30 @@
+digraph G {
+    compound = true;
+    rankdir = "LR";
+
+    download_ucdp -> extract_ucdp;
+    download_ucdp [label="ucdp-download.sh"];
+    extract_ucdp [label="ucdp-extract.py"];
+
+    combine [label="manual\nextract & combine"]
+
+    extract_ucdp -> cross
+
+    subgraph cluster_sub1 {
+        label = "https://statistik.at\nmanual download of data";
+        color=blue;
+        sna_at_1 [label="VGR 1976-2007"];
+        sna_at_2 [label="VGR 1995-2018"];
+        sna_at_3 [label="VGR latest"];
+    }
+    sna_at_1 -> combine;
+    sna_at_2 -> combine;
+    sna_at_3 -> combine;
+
+    combine -> cross
+
+    cross -> "x-y-plot.svg"
+    cross -> "x-y-plot.csv"
+
+    cross [label="cross.py"];
+}
