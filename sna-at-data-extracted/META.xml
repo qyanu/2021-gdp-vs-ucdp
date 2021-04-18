@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpledc
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    >
+    <dc:title xml:lang="en"
+        >Austrian Gross Domestic Product (nominal), 1976 - 2019</dc:title>
+    <dc:creator>STATISTIK AUSTRIA https://statistik.at</dc:creator>
+    <dc:contributor>Max-Julian Pogner &lt;max-julian@pogner.at&gt;</dc:contributor>
+    <dc:description xml:lang="en"
+        >Economical data on the nominal gross domestic product of the
+        country 'AUSTRIA' as calculated
+        by the state-owned and state-sponsored entity 'STATISTIK AUSTRIA'.
+
+        The data points for various years have been collected from various
+        places on https://statistik.at and merged into a single table
+        by the contributor.
+    </dc:description>
+    <dc:publisher>Max-Julian Pogner &lt;max-julian@pogner.at&gt;</dc:publisher>
+    <dc:date>2021-04-17</dc:date>
+    <dc:type>http://purl.org/dc/dcmitype/Dataset</dc:type>
+    <dc:format>text/csv</dc:format>
+    <dc:source>https://statistik.at</dc:source>
+    <dc:language>de</dc:language>
+    <dc:coverage>1976-2019</dc:coverage>
+    <dc:coverage>AUSTRIA</dc:coverage>
+    <dc:rights xml:lang="de">
+Quelle: STATISTIK AUSTRIA (https://statistik.at), die Daten wurden durch
+Zusammenfügen mehrer Einzeltabellen bearbeitet.
+    </dc:rights>
+</simpledc>

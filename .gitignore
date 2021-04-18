@@ -3,4 +3,11 @@
 /ucdp-data/
 /ucdp-data-extracted/
 /output-data/
-README.pdf
+
+# the following files are build artifacts specific to the machine where
+# they are built.
+/code/sna-at-download.pdf
+/code/sna-at-extract-and-combine.pdf
+/code/ucdp-quality-checklist.pdf
+/data-management-plan.pdf
+/README.pdf

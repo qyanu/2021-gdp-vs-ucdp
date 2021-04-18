@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpledc xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title xml:lang="de"
+        >Source Code of project 'Correlating World Conflict with Local Economy Growth'</dc:title>
+    <dc:creator>Max-Julian Pogner &lt;max-julian@pogner.at&gt; https://orcid.org/0000-0001-6244-0173</dc:creator>
+    <dc:publisher>Max-Julian Pogner &lt;max-julian@pogner.at&gt; https://orcid.org/0000-0001-6244-0173</dc:publisher>
+    <dc:date>2021-04-17</dc:date>
+    <dc:type>SourceCode</dc:type>
+    <dc:language>en</dc:language>
+    <dc:rights xml:lang="de">https://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+</simpledc>

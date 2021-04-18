@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<simpledc
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    >
+    <dc:title xml:lang="de"
+        >Volkswirtschaftliche Gesamtrechnung</dc:title>
+    <dc:title xml:lang="de"
+        >Volkswirtschaftliche Gesamtrechnung Hauptgrößen</dc:title>
+    <dc:title xml:lang="de"
+        >Volkswirtschaftliche Gesamtrechnungen 1976-2007</dc:title>
+    <dc:title xml:lang="de"
+        >Volkswirtschaftliche Gesamtrechnungen 1995 - 2008</dc:title>
+    <dc:creator>STATISTIK AUSTRIA https://statistik.at</dc:creator>
+    <dc:description xml:lang="en"
+        >Economical data on the country 'AUSTRIA' as calculated
+        by the state-owned and state-sponsored entity 'STATISTIK AUSTRIA'.
+
+        Data comprises such values as the gross domestic product, and
+        related figures.
+
+        Data contains one value of each parameter per year, in the extent
+        from 1976 to 2020.
+
+        Data constitutes three files, as downloaded by the publisher from
+        the creator's homepage.
+
+        volkswirtschaftliche_gesamtrechnung_hauptgroessen.xlsx
+            the most recent data, up to 2020. the data 2016 to 2020 is
+            only preliminary.
+
+        volkswirtschaftliche_gesamtrechnungen_1976-2007.pdf
+            austria economic figures from 1976 to 2007 (final numbers).
+
+        volkswirtschaftliche_gesamtrechnungen_1995_-_2018.pdf
+            austria economic figures from 1995 to 2018, final numbers,
+            except 2016 to 2018 which are preliminiary numbers.
+    </dc:description>
+    <dc:publisher>Max-Julian Pogner &lt;max-julian@pogner.at&gt;</dc:publisher>
+    <dc:date>2021-04-17</dc:date>
+    <dc:type>Collection</dc:type>
+    <dc:format>text/csv</dc:format>
+    <dc:format>application/vnd.ms-excel</dc:format>
+    <dc:source>https://statistik.at</dc:source>
+    <dc:language>de</dc:language>
+    <dc:coverage>1976-2020</dc:coverage>
+    <dc:coverage>AUSTRIA</dc:coverage>
+    <dc:rights xml:lang="de">
+Copyright Statistik Austria
+
+Das Produkt und die darin enthaltenen Daten sind urheberrechtlich geschützt.
+Alle Rechte sind der Bundesanstalt Statistik Österreich (STATISTIK AUSTRIA)
+vorbehalten. Bei richtiger Wiedergabe und mit korrekter Quellenangabe
+"STATISTIK AUSTRIA" ist es gestattet, die Inhalte zu vervielfältigen,
+verbreiten, öffentlich zugänglich zu machen und sie zu bearbeiten. Bei
+auszugsweiser Verwendung, Darstellung von Teilen oder sonstiger Veränderung
+von Dateninhalten wie Tabellen, Grafiken oder Texten ist an geeigneter Stelle
+ein Hinweis anzubringen, dass die verwendeten Inhalte bearbeitet wurden.
+© STATISTIK AUSTRIA
+
+Gesonderte Lizenzen und Nutzungsbedingungen gelten für Open Data von
+Statistik Austria (http://data.statistik.gv.at/web/?page=terms).
+    </dc:rights>
+</simpledc>

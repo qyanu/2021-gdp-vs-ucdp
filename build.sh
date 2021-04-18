@@ -1,16 +1,29 @@
 #!/bin/bash
 set -eu -o pipefail
+MYDIR="$(realpath "$(dirname "$0")")"
 
-#
-# Dependencies:
-#  apt install \
-#    graphviz \
-#    rst2pdf \
-#
+#####
+##
+## main build script for this project -- all you need to execute.
+##
+## this scripts performs all machine-automateable steps of downloading
+## data, processing data and also creates and auxilliary artifacts such
+## as documentation.
+##
+#####
 
-./ucdp-download.sh
-./ucdp-extract.py
-./cross.py
+trap '[[ 0 -eq $? ]] || echo "build error!"' EXIT
+
+cd "$MYDIR"
+./code/ucdp-download.sh
+./code/ucdp-extract.py
+./code/ucdp-extracted-render.py
+./code/sna-at-extracted-render.py
+./code/cross.py
 dot -Tpdf dataflow-overview.dot > dataflow-overview.pdf
+rst2pdf code/sna-at-download.rst
+rst2pdf code/sna-at-extract-and-combine.rst
+rst2pdf code/ucdp-quality-checklist.rst
+rst2pdf data-management-plan.rst
 rst2pdf README.rst
-rst2pdf extract-and-combine-sna-at.rst
+echo "build finished successfully."

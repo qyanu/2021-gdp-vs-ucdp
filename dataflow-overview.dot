@@ -2,15 +2,21 @@ digraph G {
     compound = true;
     rankdir = "LR";
 
+    subgraph cluster_sub1 {
+        label = "https://udcp.uu.se.at/downloads/";
+        color=blue;
+        download_ucdp [label="ucdp-download.sh"];
+    }
+
     download_ucdp -> extract_ucdp;
-    download_ucdp [label="ucdp-download.sh"];
+    
     extract_ucdp [label="ucdp-extract.py"];
 
     combine [label="manual\nextract & combine"]
 
     extract_ucdp -> cross
 
-    subgraph cluster_sub1 {
+    subgraph cluster_sub2 {
         label = "https://statistik.at\nmanual download of data";
         color=blue;
         sna_at_1 [label="VGR 1976-2007"];

@@ -1,7 +1,7 @@
-The data in this directory is a subset of data downloaded from
-Statistik Austria via https://statistik.at/, and a concatenation
-of said subset. For the original data files as downloaded, see
-directory ``sna-at-data/``.
+The data in this directory is a subset of data downloaded from Statistik
+Austria via https://statistik.at/, and a filtered concatenation of said
+subsets. For the original data files as downloaded, see directory
+`sna-at-data/`.
 
 The original copyright statement of Statistik Austria reads as follows:
 
