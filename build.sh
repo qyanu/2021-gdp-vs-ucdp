@@ -25,5 +25,6 @@ rst2pdf code/sna-at-download.rst
 rst2pdf code/sna-at-extract-and-combine.rst
 rst2pdf code/ucdp-quality-checklist.rst
 rst2pdf data-management-plan.rst
+./code/madmp-generate.py
 rst2pdf README.rst
 echo "build finished successfully."

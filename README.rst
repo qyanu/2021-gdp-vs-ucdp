@@ -18,7 +18,8 @@ quality of the calculations, any conclusions have to be regarded as having
 worse-than-questionable statistical validity.
 
 This project is also covered by an included
-`Data Management Plan <data-management-plan.pdf>`_.
+`Data Management Plan <data-management-plan.pdf>`_
+(also available as `machine actionable version <data-management-plan.json>`_).
 
 
 How to Build
@@ -68,12 +69,21 @@ Build Dependencies
 * :literal:`python3.7`
 * :literal:`dot` from the graphviz package v2.40.1
 * :literal:`python3-matplotlib` v3.0.2-2
+* :literal:`python3-ruamel.yaml` v0.15.34-1+b1
 * :literal:`rst2pdf` v0.93.dev0
 * :literal:`curl` v7.64.0
 * various tools from the :literal:`coreutils` package v8.30 are used.
 
 Note: this project was developed on a Debian Linux "Buster" 10 operating
 system with a K Desktop Environment.
+
+Development Dependencies
+------------------------
+
+Only needed for scripts other than build.sh, which are not intended to
+be used by the normal user.
+
+* ``pip3 install 'jsonschema>=3.2.0'``
 
 
 Intended Applicability
