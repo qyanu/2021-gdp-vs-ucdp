@@ -22,7 +22,8 @@ DESTMETA = os.path.join(DESTDIR, "META.xml")
 
 DATA = { }
 
-os.mkdir(DESTDIR, 0o755)
+if not os.path.exists(DESTDIR):
+    os.mkdir(DESTDIR, 0o755)
 
 with open(SRCFILE, mode='r', encoding="UTF-8", newline="") as fp:
     csv_input = csv.DictReader(fp)
