@@ -7,6 +7,7 @@ the result is placed into subdirectory ``ucdp-data-extracted/``.
 
 import csv
 import os.path
+import os
 import sys
 
 SRCDIR = os.path.join(os.path.dirname(__file__), "..", "ucdp-data")
@@ -20,6 +21,8 @@ DESTDATASOURCE = os.path.join(DESTDIR, "DATA-SOURCE")
 DESTMETA = os.path.join(DESTDIR, "META.xml")
 
 DATA = { }
+
+os.mkdir(DESTDIR, 0o755)
 
 with open(SRCFILE, mode='r', encoding="UTF-8", newline="") as fp:
     csv_input = csv.DictReader(fp)
