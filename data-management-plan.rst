@@ -15,7 +15,7 @@ Project Abstract
     the local economic impact of world-wide conflict is calculated.
 
 Public Project Repository DOI
-  https://doi.org/10.5281/zenodo.4699809
+  https://doi.org/10.5281/zenodo.4699808
 
 Public Project Repository URL
   https://github.com/qyanu/2021-gdp-vs-ucdp
@@ -35,7 +35,7 @@ DMP Template
   https://www.scienceeurope.org/media/4brkxxe5/se_rdm_practical_guide_extended_final.pdf
 
 DMP DOI
-  https://doi.org/10.5281/zenodo.4699776
+  https://doi.org/10.5281/zenodo.4699775
 
 Last Modified
   19\. April 2021
