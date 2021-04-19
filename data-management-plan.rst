@@ -14,6 +14,12 @@ Project Abstract
     `Statistik Austria <https://www.statistik.at> <https://www.statistik.at>`_,
     the local economic impact of world-wide conflict is calculated.
 
+Public Project Repository DOI
+  https://doi.org/10.5281/zenodo.4699809
+
+Public Project Repository URL
+  https://github.com/qyanu/2021-gdp-vs-ucdp
+
 Creator
   `Max-Julian Pogner <max-julian@pogner.at> <mailto:max-julian@pogner.at>`_,
   a student at `TU Wien <https://tuwien.ac.at> <https://tuwien.ac.at>`_
@@ -28,8 +34,11 @@ DMP Template
   Science Europe, January 2021,
   https://www.scienceeurope.org/media/4brkxxe5/se_rdm_practical_guide_extended_final.pdf
 
+DMP DOI
+  https://doi.org/10.5281/zenodo.4699776
+
 Last Modified
-  17\. April 2021
+  19\. April 2021
 
 
 .. footer::
@@ -938,6 +947,9 @@ identifiers.
 
 * a DOI for the the main github repository will be acquired through the
   github/zenodo partnership.
+
+  Acquired DOI: https://doi.org/10.5281/zenodo.4699809
+
 * for the `sna-at-data` and `sna-at-data-extracted` data sets, a
   snapshot will be each uploaded separately to zenodo to, and a separate
   DOI acquired for these snapshots.
