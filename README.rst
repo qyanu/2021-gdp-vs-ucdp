@@ -21,6 +21,18 @@ This project is also covered by an included
 `Data Management Plan <data-management-plan.pdf>`_
 (also available as `machine actionable version <data-management-plan.json>`_).
 
+Public Project Repository
+=========================
+
+Find the full content of this project, including content linked in this
+README, at:
+
+Public Project Repository DOI
+  https://doi.org/10.5281/zenodo.4699808
+
+Public Project Repository URL
+  https://github.com/qyanu/2021-gdp-vs-ucdp
+
 
 How to Build
 ============
@@ -162,7 +174,7 @@ Results
   :width: 100%
   :alt: Output Data Plot
 
-Raw scatter plot points: `<output-data/output-data.pdf.csv>`_
+Raw scatter plot points: `<output-data/output-data.csv>`_
 
 There is no discernable correlation of yearly gdp change and yearly
 world conflict intensity.
